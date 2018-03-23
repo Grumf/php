@@ -1,0 +1,29 @@
+----------------------------------------------------
+                Traitement
+----------------------------------------------------
+
+if($_POST)
+{
+    Si je poste un formulaire
+    INSERT
+}
+
+if($_GET)
+{
+    J'ai cliqué sur un lien modifier ou supprimer
+    UPDATE
+    ou DELETE
+}
+
+----------------------------------------------------
+                Affichage
+----------------------------------------------------
+
+SELECT
+Si je prévois des liens du style ==> ?action=supprimer&id=5
+ou ==> ?action=modifier&id=5
+
+
+----------------------------------------------------
+                Formulaire
+----------------------------------------------------

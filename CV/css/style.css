@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'pecitamedium';
+    src: url('css/Pecita-webfont.eot');
+    src: url('css/Pecita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Pecita-webfont.woff2') format('woff2'),
+         url('Pecita-webfont.woff') format('woff'),
+         url('Pecita-webfont.ttf') format('truetype'),
+         url('Pecita-webfont.svg#pecitamedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a, a:visited, a:active, a:hover{text-decoration:none}
+
+
+body{
+	margin-top: 100px;
+	font-family: 'hind';
+	font-size: 1em;
+}
+
+.conteneur{
+	width: 960px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #686a6a;
+	min-height: 100px;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+h1, h2{
+    font-family: 'pecitamedium';
+}
+
+h1{
+	font-size: 3em;
+	line-height:0px;
+	padding-top: 10px;
+}
+
+header nav a{
+	display: block;
+	height: 100px;
+	line-height: 100px;
+	font-weight: normal;
+	float: right;
+	padding: 0 25px;
+	color: white;
+	transition:0.5s;
+}
+
+header nav a:hover{
+	font-weight: bold;
+	background-color: #688f8f;
+}
+
+/*__________SECTION 1___________*/
+
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+#section1 li h3{
+	margin: 5px 0;
+}
+
+.jauge_fond{
+	background: #e1e1e1;
+	height: 6px;
+	width: 100%;
+	
+}
+.jauge_couleur{
+	height:100%;
+}
+
+#section1 .bloc25 img{
+	width: 100%;
+	max-width: 100%;
+}
+
+h3{
+	font-size: 1em;
+}
+
+#link1, #link2, #link3, #link4{
+	position: relative;
+	bottom: 100px;
+}
+
+section{
+	min-height: 200px;
+}
+
+
+figure{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+figure img{
+	display: block;
+	width: 100%;
+}
+
+figcaption a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+figcaption h3{
+	margin: 10px;
+	font-size: 0.8em;
+}
+
+figure figcaption{
+	background: rgba(0,0,0,0.75);
+	text-align: center;
+	padding: 5px 0;
+	position: absolute;
+	bottom: -25%;
+	width: 100%;
+	transition: .6s;
+}
+
+figure:hover figcaption{
+	bottom: 0;
+}
+
+/*__________SECTION 3____________*/
+
+table{
+	width: 100%;
+}
+
+td.year{
+	font-size: 1.5em;
+	font-weight: bold;
+	border-right: 3px solid #ccc;
+}
+
+td.year p{
+	font-size: 0.8em;
+	font-weight: normal;
+	opacity: .6;
+}   
+
+td.job{
+	font-size: 1.3em;
+	width: 88%;
+	border-bottom: 2px dotted #aaa;
+	padding: 5px 0 0 10px;
+}
+
+td.job_desc{
+	opacity: .6;
+	padding-left: 10px;
+}
+
+/*__________CONTACT____________*/
+
+input, textarea{
+	display: block;
+	margin-bottom: 12px;
+	width: 100%;
+	height: 30px;
+}
+
+textarea{
+	width:100%;
+	height:180px;
+}
+
+
+
+/*__________FOOTER____________*/
+
+footer{
+	background-color: #686a6a;
+}
+
+.ligne:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+
+.bloc25{
+	width:25%;
+	float:left;
+}
+
+.bloc30{
+	width:30%;
+	float:left;
+}
+
+.bloc33{
+	width:33.33%;
+	float:left;
+}
+
+.bloc40{
+	width: 40%;
+	Float: left;
+}
+
+.bloc50{
+	width: 50%;
+	Float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.bloc60{
+	width: 60%;
+	Float: left;
+}
+
+.bloc66{
+	width: 66.66%;
+	Float: left;
+}
+
+.bloc70{
+	width: 70%;
+	Float: left;
+}
+
+.bloc100{
+	width: 100%;
+	Float: left;
+}
+
+.clear{clear:both;}

@@ -1,0 +1,34 @@
+body {
+    padding-top : 70px;
+}
+
+footer{
+    padding : 40px;
+}
+
+main{
+    min-height: 80vh;
+}
+
+table {
+    width : 100%;
+}
+
+th{
+    text-align : center;
+    padding : 5px 15px;
+    background-color: teal;
+    color : #fff;
+}
+
+.img-thumbnail{
+    width : 400px;
+}
+
+td{
+    padding: 10px 15px;
+}
+
+.hauteur{
+    height: 50vh;
+}

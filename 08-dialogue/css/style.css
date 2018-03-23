@@ -1,0 +1,65 @@
+body{
+    background-image: url('cartographer.png');
+    font-family: 'Rubik', sans-serif;
+    color : #fff;
+}
+
+.container{
+    margin : 0 auto;
+}
+
+form{
+    width : 20%;
+    float : left;
+    margin-right : 30px;
+}
+
+main{
+    width: 70%;
+    float : left;
+}
+
+legend{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+input, textarea{
+    background-color: rgba(0,0,0,0);
+    color : #fff;
+    border : 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border : 2px solid #ccc;
+    margin : 15px 0;
+    padding : 30px;
+}
+
+.titre{
+    color : #777;
+    font-size: 0.8em;
+}
+
+.message{
+    margin : 15px 0;
+}
+
+.contenu{
+    border : 1px solid #777;
+    padding : 15px;
+    font-size: 0.9em;
+}
+
+.button{
+    background-color: #ccc;
+    color : #222;
+    padding : 5px;
+    font-size: 0.9em;
+}
+
+.clear{
+    clear : both;
+}
+

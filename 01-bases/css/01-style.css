@@ -1,0 +1,9 @@
+h2{
+    margin:0;
+    font-size: 15px;
+    color:red;
+}
+
+td {
+    border : 1px solid black;
+}

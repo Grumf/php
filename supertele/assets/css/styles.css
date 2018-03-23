@@ -1,0 +1,18 @@
+div.container{
+    width : 1300px;
+}
+
+.navbar-inverse{
+    padding-right : 70px;
+    border-radius: 0;
+    
+}
+
+footer{
+    height : 30px;
+    line-height : 30px;
+    color : #fff;
+    background-color: #222;
+    padding-right : 50px;
+    font-size : 0.8em;
+}
